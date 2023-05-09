@@ -12,9 +12,9 @@ All samples listed in this document will require references to the following dll
 All samples in this document will require the following using statements:
 
 ```csharp
-using Umbraco.Core;
-using Umbraco.Core.Models;
-using Umbraco.Core.Services;
+using Umbraco.Cms.Core;
+using Umbraco.Cms.Core.Models;
+using Umbraco.Cms.Core.Services;
 ```
 
 ## Getting the service
