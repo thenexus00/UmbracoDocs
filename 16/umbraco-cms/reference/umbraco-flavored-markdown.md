@@ -80,12 +80,12 @@ Expressions are defined using the `${ ... }` syntax. This is different to the sy
 **Examples:**
 
 ```markdown
-${ propertyAlias }                              // Renders a literal value
-${ propertyAlias.length }                       // Property drilling
-${ propertyAlias.length > 0 ? "Yes" : "No" }    // Conditionals
-${ propertyAlias | uppercase }                  // Piped filters, as detailed above
-${ propertyAlias.toUpperCase() }                // Native JavaScript functions
-${ 1 + 2 }                                      // Expression evaluation/calculation; renders "3"
+{ propertyAlias }                              // Renders a literal value
+{ propertyAlias.length }                       // Property drilling
+{ propertyAlias.length > 0 ? "Yes" : "No" }    // Conditionals
+{ propertyAlias | uppercase }                  // Piped filters, as detailed above
+{ propertyAlias.toUpperCase() }                // Native JavaScript functions
+{ 1 + 2 }                                      // Expression evaluation/calculation; renders "3"
 ```
 
 Expressions can reference property aliases, perform calculations, concatenate strings, and more.
